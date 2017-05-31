@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidWorkspace\\MyPlayer\\sample\\build\\intermediates\\res\\merged\\release\\drawable\\background_tab.xml",
+        "source": "E:\\AndroidWorkspace\\MyPlayer\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidWorkspace\\MyPlayer\\sample\\build\\intermediates\\res\\merged\\release\\drawable\\background_tabs_diagonal.xml",
+        "source": "E:\\AndroidWorkspace\\MyPlayer\\sample\\res\\drawable\\background_tabs_diagonal.xml"
+    },
+    {
+        "merged": "E:\\AndroidWorkspace\\MyPlayer\\sample\\build\\intermediates\\res\\merged\\release\\drawable\\background_tabs.xml",
+        "source": "E:\\AndroidWorkspace\\MyPlayer\\sample\\res\\drawable\\background_tabs.xml"
+    }
+]

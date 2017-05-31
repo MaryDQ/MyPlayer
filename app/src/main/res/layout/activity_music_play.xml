@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/imageView1_album"
+        android:src="@mipmap/app_logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="歌名"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/textView1_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp" />
+
+    <RelativeLayout
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8C8C8C">
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar1"
+            android:layout_above="@+id/textView1_start_time"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/textView1_start_time"
+            android:layout_above="@+id/imageView1_play_mode"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/textView1_end_time"
+            android:layout_alignTop="@+id/textView1_start_time"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1_play_mode"
+            android:src="@mipmap/order_play"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1_next"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@mipmap/app_next"/>
+
+        <ImageView
+            android:background="@mipmap/app_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2_play_pause"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageView1_next"
+            android:layout_toStartOf="@+id/imageView1_next" />
+
+        <ImageView
+            android:background="@mipmap/app_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3_previous"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageView2_play_pause"
+            android:layout_toStartOf="@+id/imageView2_play_pause" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1_favorite"
+            android:src="@mipmap/favorite"
+            android:layout_alignTop="@+id/imageView1_play_mode"
+            android:layout_toRightOf="@+id/textView1_start_time"
+            android:layout_toEndOf="@+id/textView1_start_time"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
